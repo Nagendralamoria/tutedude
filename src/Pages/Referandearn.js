@@ -1,9 +1,9 @@
 import React from 'react'
 import './Referandearn.css';
 import Navbar from '../Components/Navbar';
-import {IoIosPeople,IoMdWallet} from 'react-icons/io';
 import {FaRupeeSign} from 'react-icons/fa';
 import {TbDiscount2} from 'react-icons/tb';
+import {MdGroups,MdAccountBalanceWallet} from 'react-icons/md'
 import {IoPricetag} from 'react-icons/io5';
 function Referandearn() {
   return (
@@ -39,7 +39,7 @@ function Referandearn() {
           <div className='worksection'>
             
             <div className='worksectiontext'>
-              <IoIosPeople className='worksectionicons'/>
+              <MdGroups className='worksectionicons'/>
               <div>
                   <h4>Invite your Friends</h4>
                   <p>Share the link tutedude.com with
@@ -68,7 +68,7 @@ function Referandearn() {
               </div>
             </div>
             <div className='worksectiontext'>
-              <IoMdWallet className='worksectionicons2'/>
+              <MdAccountBalanceWallet className='worksectionicons2'/>
               <div>
                   <h4>Transfer money from wallet</h4>
                   <p>When the wallet balance reaches
