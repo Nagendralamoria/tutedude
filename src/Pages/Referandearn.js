@@ -1,10 +1,10 @@
 import React from 'react'
 import './Referandearn.css';
 import Navbar from '../Components/Navbar';
-import {IoIosPeople,IoMdWallet} from 'react-icons/io'
-import {FaRupeeSign} from 'react-icons/fa'
-import {TbDiscount2} from 'react-icons/tb'
-import {IoPricetag} from 'react-icons/io5'
+import {IoIosPeople,IoMdWallet} from 'react-icons/io';
+import {FaRupeeSign} from 'react-icons/fa';
+import {TbDiscount2} from 'react-icons/tb';
+import {IoPricetag} from 'react-icons/io5';
 function Referandearn() {
   return (
     <>
