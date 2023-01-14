@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 import {FaRupeeSign} from 'react-icons/fa';
 import {TbDiscount2} from 'react-icons/tb';
 import {MdGroups,MdAccountBalanceWallet} from 'react-icons/md'
-import {IoPricetag} from 'react-icons/io5';
+import {ImPriceTag} from 'react-icons/im';
 function Referandearn() {
   return (
     <>
@@ -47,7 +47,7 @@ function Referandearn() {
               </div>
             </div>
             <div className='worksectiontext'>
-              <IoPricetag className='worksectionicons'/>
+              <ImPriceTag className='worksectionicons'/>
               <div>
                   <h4>Friend purchases any course</h4>
                   <p>Using your REFERRAL CODE in the payments page</p>
