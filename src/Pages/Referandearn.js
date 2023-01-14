@@ -1,7 +1,7 @@
 import React from 'react'
 import './Referandearn.css';
 import Navbar from '../Components/Navbar';
-import {FaRupeeSign} from 'react-icons/fa';
+import {BiRupee} from 'react-icons/bi';
 import {TbDiscount2} from 'react-icons/tb';
 import {MdGroups,MdAccountBalanceWallet} from 'react-icons/md'
 import {ImPriceTag} from 'react-icons/im';
@@ -54,7 +54,7 @@ function Referandearn() {
               </div>
             </div>
             <div className='worksectiontext'>
-              <FaRupeeSign className='worksectionicons'/>
+              <BiRupee className='worksectionicons'/>
               <div>
                   <h4>You get ₹ 200 as referral money</h4>
                   <p>On total purchase the friend makes, into your wallet</p>
