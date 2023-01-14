@@ -1,0 +1,37 @@
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3rem 4rem 0.3rem 4.5rem;
+}
+.Navbar>img{
+    width:160px;
+    height: 63px;
+}
+.Navbartext{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Navaccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.Navbartext>li{
+    font-weight: 800;
+    color: rgba(128, 0, 128, 0.25);
+}
+.Navbartext :last-child{
+    color:rgba(128, 0, 128, 1);
+    font-weight: 800;
+}
+.Navicon{
+    color: rgba(128, 0, 128, 1);
+    font-size: 1.5rem;
+}
